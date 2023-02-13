@@ -1,0 +1,108 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.Calculadora{
+  padding: 10px;
+  width: 380px;
+  border-radius: 10px;
+  
+}
+.Calculator{
+  background-color: rgb(85, 85, 85);
+  border-radius: 10px;
+  border-bottom: none;
+}
+.Calculator input{
+   padding: 22px;
+   margin: 5px;
+   margin-top: 20px;
+}
+ 
+.display{
+  outline: none;
+  border: none;
+  width: 310px;
+  height: 40px;
+  margin: 20px;
+  font-size: 2.5rem;
+  font-weight: 100;
+  padding: 2px 15px;
+  text-align: right;
+  color: white;
+  background: #1c191c;
+  border-radius: 10px;
+}
+button {
+  width: 85px;
+  height: 95px;
+  font-size: 25px;
+  font-weight: 100;
+  margin: 5px;
+  cursor: pointer;
+  border-top: 1px solid #666;
+  border-left: none;
+  border-bottom: none;
+  
+}
+.Clave{
+  transition: all 400ms;
+}
+.Clave:hover{
+transform: scale(1.1);
+}
+.Operador{
+  background-color: rgb(44, 156, 156);
+  transition: all 400ms;
+}
+.Operador:hover{
+  transform: scale(1.1);
+}
+.ClaveFull{
+  background-color: #a0a0a0;
+  border-right: 1px solid #d1d1d1;
+  transition: all 400ms;
+}
+.ClaveFull:hover{
+  transform: scale(1.1);
+
+}
